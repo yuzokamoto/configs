@@ -47,6 +47,7 @@ web_modules/
 
 # TypeScript cache
 *.tsbuildinfo
+next-env.d.ts
 
 # Optional npm cache directory
 .npm
@@ -91,6 +92,9 @@ out
 .nuxt
 dist
 
+# Common build output
+build
+
 # Gatsby files
 .cache/
 # Comment in the public line in if your project uses Gatsby and not Next.js
@@ -102,6 +106,7 @@ dist
 
 # vuepress v2.x temp and cache directory
 .temp
+.tmp
 .cache
 
 # Docusaurus cache and generated files
@@ -128,3 +133,50 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+/.pnp
+
+# nx build system
+.nx/cache
+.nx/workspace-data
+
+# OS
+.DS_Store
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Keys
+*.pem
+
+# vercel
+.vercel
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
